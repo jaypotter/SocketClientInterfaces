@@ -1,0 +1,25 @@
+{
+    "name": "potter/socket-client-interfaces",
+    "description": "PHP Socket Client Interface Collection",
+    "type": "metapackage",
+    "require": {
+        "php": "^8.3",
+        "potter/socket-client-interface": "dev-main",
+        "potter/irc-client-interface": "dev-main"
+    },
+    "suggest": {
+        "potter/socket-client": "dev-main",
+        "potter/socket-interfaces": "dev-main",
+        "potter/socket": "dev-main",
+        "potter/contracts": "dev-main",
+        "potter/framework": "dev-main"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "dev"
+}
